@@ -1,0 +1,72 @@
+/* Body styles */
+body {
+  background-color: #1a1a2e;
+  background-image: url("../images/starry.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ensure all text elements are centered */
+body, h1, h2, p, ol, ul, li, a {
+  text-align: center;
+}
+
+/* Highlight text */
+.highlight {
+  background-color: #ff4c4c;
+  padding: 5px;
+}
+
+/* Heading styles */
+h1 {
+  color: #00b7eb;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center; /* centers text and inline elements */
+}
+
+
+/* Center images */
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Optional: Style lists so they still look nice */
+ol, ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+/* Link styles */
+a {
+  color: #fdf58d; /* Soft yellow */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffcc; /* Even lighter yellow on hover */
+  text-decoration: underline;
+}

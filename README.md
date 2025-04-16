@@ -1,1 +1,1 @@
-# galaxy
+# is-project
